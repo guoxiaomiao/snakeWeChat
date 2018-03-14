@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/snake/snake",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "贪吃蛇",
+    "navigationBarTextStyle":"black"
+  },
+    "tabBar": {
+      "color":"red",
+      "selectedColor":"green",
+       "backgroundColor":"pink",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/logs/logs",
+          "text": "日志"
+        }
+      ]
+    }
+}
